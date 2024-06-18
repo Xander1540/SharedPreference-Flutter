@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
       )
     );
   }
-
+#comment
   void getValue() async{
 
     var prefs = await SharedPreferences.getInstance();

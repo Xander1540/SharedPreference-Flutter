@@ -63,6 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   border: OutlineInputBorder(borderRadius: BorderRadius.circular(20)),
                 ),
               ),
+              SizedBox(height: 10),
               ElevatedButton(onPressed: () async{
 
                 var name = nameController.text.toString();
